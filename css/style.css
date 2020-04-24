@@ -1,0 +1,83 @@
+body{
+    height: 99vh;
+    background: url(563543453.png) ;
+    background-size: cover;
+    border: 2px solid rgb(17, 187, 144);
+    image-orientation: 1px;
+   
+}
+.form{
+    position: absolute;
+    top: 20%;
+    left: 91%;
+    transform: translate(-50%,-50%);
+    background: rgba(red, green, blue, alpha);
+    border-radius: 10px;
+    height: fit-content;
+    
+    
+    }
+    .form h1{
+        margin: 10px 30px;
+        padding: 0;
+        text-align: center;
+        color: rgba(12, 77, 116, 0.726);
+        font-size: 30px;
+        text-transform: uppercase;
+        border-radius: 10px;
+    }
+    .input-form {
+        margin: 5px -45px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .input-form input{
+        padding: 10px;
+        width: auto;
+        color: white;
+        font-size: 20; 
+        background: none;
+        outline: rgb(36, 19, 19) 2px;
+        border: 1px solid rgb(9, 66, 112);
+       box-sizing: border-box;
+       
+    }
+    .input-form input[type="text"]:focus {
+        border: 1px solid rgb(30, 255, 0);
+    }
+    .input-form input[type="password"]:focus {
+        border: 1px solid rgb(0, 255, 0);
+    }
+    .input-form input[type="submit"] {
+        margin-top: 10px;
+        color: red;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: none;
+        background: rgba(0, 0, 255, 0.075) 1%;
+        transition: 1s ; 
+    }
+    .input-form input[type="submit"]:hover{
+        background: cyan;
+    }
+    .form a{
+        display: block;
+        padding: 0 0 10px;
+        text-align: center;
+        color: rgb(88, 49, 226);
+        text-decoration:none ;
+        transition:.3s ;
+    }
+    .form a :hover{
+        color: rgb(69, 209, 26);
+    }
+
+.bg-header {
+    background-color: lightgrey;
+    width: 250px;
+    border: 3px solid rgba(165, 42, 214, 0.788);
+    border-radius: 5px;
+   
+    padding:40px;
+    margin: 10px;
+}
